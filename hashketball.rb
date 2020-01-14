@@ -214,10 +214,12 @@ end
 def winning_team
   home_stats = game_hash[:home]
   away_stats = game_hash[:away]
+  home_points = []
+  away_points = []
   
   home_stats.each do |outer_keys|
     outer_keys.each do |inner_keys|
-      
+      home_points << 
     end
   end
 end
