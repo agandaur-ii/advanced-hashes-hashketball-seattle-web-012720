@@ -182,3 +182,5 @@ def big_shoe_rebounds
     index.max_by{|k,v| v}
   end
 end
+
+pp big_shoe_rebounds
