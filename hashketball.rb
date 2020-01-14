@@ -212,7 +212,14 @@ def most_points_scored
 end
 
 def winning_team
+  home_stats = game_hash[:home]
+  away_stats = game_hash[:away]
   
+  home_stats.each do |outer_keys|
+    outer_keys.each do |inner_keys|
+      
+    end
+  end
 end
 
 pp big_shoe_rebounds
