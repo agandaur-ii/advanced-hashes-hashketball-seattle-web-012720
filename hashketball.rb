@@ -178,15 +178,16 @@ def player_stats(player_name)
 end
 
 def big_shoe_rebounds
+  new = []
   array_of_all_players.each do |index| 
     index.each do |key|
-     new = []
      if key.include?(:shoe)
        new << index[:shoe]
        puts new
      end
     end
   end 
+  new
 end
 
 #.max_by{|k,v| v}
