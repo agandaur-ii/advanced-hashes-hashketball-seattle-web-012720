@@ -152,3 +152,4 @@ def team_names
   new
 end
 
+pp team_names
