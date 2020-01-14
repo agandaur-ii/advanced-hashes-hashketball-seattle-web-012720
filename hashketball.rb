@@ -156,7 +156,7 @@ def player_numbers(t_name)
     if h_a[1][:team_name] === t_name
       new = []
       #game_hash.each do |h_a2|
-        h_a2.each do |inner|
+        h_a.each do |inner|
           puts "++++"
           pp inner
           puts "++++"
