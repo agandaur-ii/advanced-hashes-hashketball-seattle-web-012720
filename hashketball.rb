@@ -186,7 +186,7 @@ def big_shoe_rebounds
      end
     end
   end 
-  new
+  new.sort.last
 end
 
 #.max_by{|k,v| v}
