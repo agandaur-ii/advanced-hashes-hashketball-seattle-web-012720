@@ -181,6 +181,7 @@ def big_shoe_rebounds
   array_of_all_players.each do |index| 
     index.each do |key|
       key.max_by{|k,v| v}
+      puts v
     end
   end    
 end
