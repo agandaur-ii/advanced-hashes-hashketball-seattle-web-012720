@@ -149,5 +149,6 @@ def team_names
     new << h_a[1][:team_name] 
     end
   end
+  new
 end
 
