@@ -169,7 +169,8 @@ def player_stats(player_name)
     array_of_all_players.each do |index| 
     index.each do |key|
       if key.include?(player_name)
-        return index.delete(:player_name)
+        index.delete(:player_name)
+        return index
       end
     end    
   end
