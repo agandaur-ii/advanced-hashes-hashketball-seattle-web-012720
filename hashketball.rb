@@ -156,10 +156,9 @@ def player_numbers(t_name)
     if h_a[1][:team_name] === t_name
       new = []
       p_list = h_a[1][:players]
-      p_list.each do |x|
-        puts x
+      p_list.each do |each_player|
+        new << each_player[:number]
       end
-      #new << 
       return new
     end
   end
