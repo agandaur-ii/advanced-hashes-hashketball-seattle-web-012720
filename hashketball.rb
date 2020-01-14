@@ -136,9 +136,7 @@ end
 
 def team_colors(t_name)
   game_hash.each do |h_a|
-    if h_a[0][:team_name] == t_name
-      return h_a[:colors]
-    end
+    puts "++++++++++"
   end
   puts "Not found"
 end
