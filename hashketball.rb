@@ -160,7 +160,6 @@ def player_numbers(t_name)
         puts x
       end
       #new << 
-      end
       return new
     end
   end
