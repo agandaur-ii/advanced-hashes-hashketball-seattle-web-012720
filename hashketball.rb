@@ -156,9 +156,10 @@ def player_numbers(t_name)
     if h_a[1][:team_name] === t_name
       new = []
       h_a.each do |inner|
-        inner.each do |keys|
-            new << keys[:number]
-        end
+        puts inner
+        #inner.each do |keys|
+          #new << keys[:number]
+        #end
       end
       return new
     end
