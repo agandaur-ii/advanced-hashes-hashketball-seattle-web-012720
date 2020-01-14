@@ -155,11 +155,12 @@ def player_numbers(t_name)
   game_hash.each do |h_a|
     if h_a[1][:team_name] === t_name
       new = []
-      h_a.each do |inner|
-        pp inner[1]
-        #inner.each do |keys|
-          #new << keys[:number]
-        #end
+      game_hash.each do |h_a2|
+        h_a2.each do |inner|
+          inner.each do |keys|
+            new << keys[:number]
+          end
+        end
       end
       return new
     end
