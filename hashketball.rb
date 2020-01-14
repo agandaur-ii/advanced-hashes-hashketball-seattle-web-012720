@@ -145,4 +145,4 @@ def team_colors(t_name)
   puts "Not found"
 end
 
-pp team_colors("Alan Anderson")
+pp team_colors("Brooklyn Nets")
