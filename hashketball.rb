@@ -194,4 +194,21 @@ def big_shoe_rebounds
   end
 end
 
+def most_points_scored
+  new = []
+  array_of_all_players.each do |index| 
+    index.each do |key|
+     if key.include?(:points)
+       new << index[:points]
+     end
+    end
+  end
+  
+  array_of_all_players.each do |index| 
+    if index[:points] == new.sort.last
+      return index[:player_name]
+    end
+  end
+end
+
 pp big_shoe_rebounds
