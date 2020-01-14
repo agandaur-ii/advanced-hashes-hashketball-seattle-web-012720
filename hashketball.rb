@@ -73,7 +73,7 @@ def game_hash
            :steals => 22,
            :blocks => 15,
            :slam_dunks => 10},
-           {:player_name => "",
+           {:player_name => "DeSagna Diop",
            :number => 0,
            :shoe => 0,
            :points => 0,
