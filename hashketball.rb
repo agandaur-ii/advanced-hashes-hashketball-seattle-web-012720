@@ -116,4 +116,4 @@ def num_points_scored(player_name)
   
 end
 
-pp array_of_all_players
+pp list.include?("Alan Anderson")
