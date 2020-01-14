@@ -176,4 +176,4 @@ def player_stats(player_name)
   puts "Not found"
 end
 
-pp player_numbers("Brooklyn Nets")
+pp player_stats("Brooklyn Nets")
