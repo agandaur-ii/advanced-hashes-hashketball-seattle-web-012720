@@ -142,6 +142,7 @@ def team_colors(t_name)
       end
     end
   end
+  puts "Not found"
 end
 
 pp num_points_scored("Alan Anderson")
