@@ -185,7 +185,8 @@ def big_shoe_rebounds
        new << index[:shoe]
      end
     end
-  end    
+  end 
+  new
 end
 
 #.max_by{|k,v| v}
