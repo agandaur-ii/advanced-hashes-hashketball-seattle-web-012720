@@ -224,7 +224,15 @@ def winning_team
       end
     end  
   end
-  home_points
+  
+  away_players.each do |hash|
+    hash.each do |key, value|
+      if key == :points
+        away_points << value
+      end
+    end  
+  end
+  
 end
 
 pp winning_team
