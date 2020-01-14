@@ -121,4 +121,4 @@ def num_points_scored(player_name)
   puts "Not found"
 end
 
-pp array_of_all_players[0][:player_name].include?("Alan Anderson")
+pp num_points_scored()
