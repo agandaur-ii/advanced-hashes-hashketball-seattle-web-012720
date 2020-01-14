@@ -188,10 +188,8 @@ def big_shoe_rebounds
   end
   
   array_of_all_players.each do |index| 
-    index.each do |key|
-     if key.include?(new.sort.last)
-       return index[:player_name]
-     end
+    if index[:shoe] == new.sort.last
+      return index[:player_name]
     end
   end
 end
