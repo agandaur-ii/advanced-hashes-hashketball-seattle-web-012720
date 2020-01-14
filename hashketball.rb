@@ -114,8 +114,9 @@ end
 
 def num_points_scored(player_name)
   array_of_all_players.each do |x| 
-    if x.include?(player_name)
-      return x[:points]
+    puts x
+    #if x.include?(player_name)
+      #return x[:points]
     end
   end
   puts "Not found"
