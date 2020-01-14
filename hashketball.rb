@@ -139,7 +139,7 @@ def team_colors(t_name)
     #if h_a[1][:team_name] === t_name
       #return ha_a[1][:colors]
     #end
-    puts ha_a[1][:colors]
+    puts ha_a[1][:team_name]
   end
   puts "Not found"
 end
