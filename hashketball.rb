@@ -107,7 +107,6 @@ def game_hash
   das_hash
 end
 
-pp game_hash
 
 
 
