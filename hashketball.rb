@@ -134,4 +134,14 @@ def shoe_size(player_name)
   puts "Not found"
 end
 
+def team_colors(t_name)
+  game_hash.each do |h_a|
+    h_a.each do |key|
+      if key == t_name
+        return h_a[:colors]
+      end
+    end
+  end
+end
+
 pp num_points_scored("Alan Anderson")
