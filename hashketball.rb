@@ -136,9 +136,10 @@ end
 
 def team_colors(t_name)
   game_hash.each do |h_a|
-    if h_a[1][:team_name] === t_name
-      return ha_a[1][:colors]
-    end
+    #if h_a[1][:team_name] === t_name
+      #return ha_a[1][:colors]
+    #end
+    puts ha_a[1][:colors]
   end
   puts "Not found"
 end
