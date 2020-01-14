@@ -117,7 +117,7 @@ def num_points_scored(player_name)
     puts x
     #if x.include?(player_name)
       #return x[:points]
-    end
+    #end
   end
   puts "Not found"
 end
