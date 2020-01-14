@@ -217,7 +217,7 @@ def winning_team
   home_points = []
   away_points = []
   
-  home_stats.each do |outer_keys|
+  home_stats.each do |outer_keys, outer_values|
     outer_keys.each do |inner_keys|
       home_points << 
     end
