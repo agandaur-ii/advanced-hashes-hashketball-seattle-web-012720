@@ -218,10 +218,13 @@ def winning_team
   away_points = []
   
   home_stats.each do |outer_keys, outer_values|
-    outer_keys.each do |inner_keys|
-      home_points << 
+    outer_values.each do |inner_values, inner_keys|
+      if inner_values == :points
+        home_stats << inner_keys
+      end
     end
   end
+  home_stats
 end
 
 pp big_shoe_rebounds
