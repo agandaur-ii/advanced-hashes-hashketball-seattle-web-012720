@@ -147,7 +147,6 @@ def team_names
   new = []
   game_hash.each do |h_a|
     new << h_a[1][:team_name] 
-    end
   end
   new
 end
