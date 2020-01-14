@@ -194,6 +194,4 @@ def big_shoe_rebounds
   end
 end
 
-#.max_by{|k,v| v}
-
 pp big_shoe_rebounds
