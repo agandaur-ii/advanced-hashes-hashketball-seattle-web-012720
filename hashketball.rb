@@ -178,7 +178,7 @@ def player_stats(player_name)
 end
 
 def big_shoe_rebounds
-  
-  
-  .max_by{|k,v| v}
+  array_of_all_players.each do |index| 
+    index.max_by{|k,v| v}
+  end
 end
