@@ -136,6 +136,9 @@ end
 
 def team_colors(t_name)
   game_hash.each do |h_a|
+    puts "+++++"
+    pp h_a
+    puts "++++++"
     h_a.each do |key|
       puts key
       #if key == t_name
