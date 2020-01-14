@@ -186,7 +186,16 @@ def big_shoe_rebounds
      end
     end
   end 
-  new.sort.last
+  #new.sort.last
+  
+  array_of_all_players.each do |index| 
+    index.each do |key|
+     if key.include?(new.sort.last)
+       return index[:player_name]
+     end
+    end
+  end
+  
 end
 
 #.max_by{|k,v| v}
