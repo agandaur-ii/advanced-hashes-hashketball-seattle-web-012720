@@ -137,7 +137,7 @@ end
 def team_colors(t_name)
   game_hash.each do |h_a|
     puts "++++++++++"
-    pp h_a[0]
+    pp h_a[0][:colors]
     puts "++++++++++"
   end
   puts "Not found"
