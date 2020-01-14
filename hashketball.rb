@@ -143,4 +143,3 @@ def team_colors(t_name)
   puts "Not found"
 end
 
-pp team_colors("Brooklyn Nets")
