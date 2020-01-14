@@ -140,7 +140,6 @@ def team_colors(t_name)
     pp h_a
     puts "++++++"
     h_a.each do |key|
-      puts key
       #if key == t_name
         #return h_a[:colors]
       #end
