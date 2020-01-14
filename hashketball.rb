@@ -145,4 +145,4 @@ def team_colors(t_name)
   puts "Not found"
 end
 
-pp num_points_scored("Alan Anderson")
+pp team_colors("Alan Anderson")
