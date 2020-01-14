@@ -227,4 +227,4 @@ def winning_team
   home_stats
 end
 
-pp big_shoe_rebounds
+pp winning_team
