@@ -121,4 +121,4 @@ def num_points_scored(player_name)
   puts "Not found"
 end
 
-pp num_points_scored()
+pp num_points_scored("Alan Anderson")
