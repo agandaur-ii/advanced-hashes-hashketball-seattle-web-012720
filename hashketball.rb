@@ -166,4 +166,4 @@ def player_numbers(t_name)
   puts "Not found"
 end
 
-pp team_names
+pp player_numbers()
