@@ -151,7 +151,7 @@ def team_names
   new
 end
 
-def player_numbers(player_name)
+def player_numbers(t_name)
   
 end
 
