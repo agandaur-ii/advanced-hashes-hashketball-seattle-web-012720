@@ -217,10 +217,12 @@ def winning_team
   home_points = []
   away_points = []
   
-  home_players.each do |key, value|
-    if key == :points
-      home_points << value
-    end
+  home_players.each do |hash|
+    hash.each do |key, value|
+      if key == :points
+        home_points << value
+      end
+    end  
   end
   home_points
 end
