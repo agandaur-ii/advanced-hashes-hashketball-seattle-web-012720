@@ -123,4 +123,15 @@ def num_points_scored(player_name)
   puts "Not found"
 end
 
+def shoe_size(player_name)
+  array_of_all_players.each do |index| 
+    index.each do |key|
+      if key.include?(player_name)
+        return index[:shoe]
+      end
+    end    
+  end
+  puts "Not found"
+end
+
 pp num_points_scored("Alan Anderson")
