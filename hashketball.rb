@@ -180,7 +180,7 @@ end
 def big_shoe_rebounds
   array_of_all_players.each do |index| 
     index.each do |key|
-      puts key[:number]
+      puts key[0][:number]
     end
   end    
 end
