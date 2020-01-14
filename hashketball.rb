@@ -185,8 +185,7 @@ def big_shoe_rebounds
        new << index[:shoe]
      end
     end
-  end 
-  #new.sort.last
+  end
   
   array_of_all_players.each do |index| 
     index.each do |key|
@@ -195,7 +194,6 @@ def big_shoe_rebounds
      end
     end
   end
-  
 end
 
 #.max_by{|k,v| v}
