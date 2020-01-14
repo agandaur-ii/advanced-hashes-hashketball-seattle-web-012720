@@ -157,7 +157,9 @@ def player_numbers(t_name)
       new = []
       game_hash.each do |h_a2|
         h_a2.each do |inner|
+          puts "++++"
           pp inner
+          puts "++++"
           inner.each do |keys|
             new << keys[:number]
           end
