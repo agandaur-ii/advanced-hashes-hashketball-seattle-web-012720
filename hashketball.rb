@@ -169,7 +169,7 @@ def player_stats(player_name)
     array_of_all_players.each do |index| 
     index.each do |key|
       if key.include?(player_name)
-        return index.except
+        return index.except(:player_name)
       end
     end    
   end
