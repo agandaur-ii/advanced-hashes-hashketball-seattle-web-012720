@@ -183,6 +183,7 @@ def big_shoe_rebounds
      new = []
      if key.include?(:shoe)
        new << index[:shoe]
+       puts new
      end
     end
   end 
