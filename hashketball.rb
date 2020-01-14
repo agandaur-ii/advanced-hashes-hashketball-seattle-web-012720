@@ -143,3 +143,7 @@ def team_colors(t_name)
   puts "Not found"
 end
 
+def team_names
+  
+end
+
