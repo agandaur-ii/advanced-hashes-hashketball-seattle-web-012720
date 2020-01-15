@@ -265,6 +265,9 @@ def long_name_steals_a_ton?
     end    
   end
   
+  pp most_steals
+  pp long_name_steals
+  
   most_steals == long_name_steals
   
 end
