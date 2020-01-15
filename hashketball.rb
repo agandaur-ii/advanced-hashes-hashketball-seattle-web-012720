@@ -249,4 +249,12 @@ def player_with_longest_name
   sorted.last
 end 
 
-pp player_with_longest_name
+def long_name_steals_a_ton?
+  list_of_steals = []
+  array_of_all_players.each do |index| 
+    list_of_names << index[:steals]
+  end
+  list_of_steals
+end
+
+pp long_name_steals_a_ton?
