@@ -247,3 +247,5 @@ def player_with_longest_name
   end
   list_of_names
 end 
+
+pp player_with_longest_name
