@@ -252,7 +252,7 @@ end
 def long_name_steals_a_ton?
   list_of_steals = []
   array_of_all_players.each do |index| 
-    list_of_names << index[:steals]
+    list_of_steals << index[:steals]
   end
   list_of_steals
 end
