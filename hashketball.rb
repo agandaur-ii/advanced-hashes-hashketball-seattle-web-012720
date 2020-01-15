@@ -245,7 +245,7 @@ def player_with_longest_name
   array_of_all_players.each do |index| 
     list_of_names << index[:player_name]
   end
-  sorted = 
+  sorted = list_of_names.sort_by {|x| x.length}
 end 
 
 pp player_with_longest_name
