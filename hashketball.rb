@@ -254,7 +254,7 @@ def long_name_steals_a_ton?
   array_of_all_players.each do |index| 
     list_of_steals << index[:steals]
   end
-  list_of_steals
+  list_of_steals.sort
 end
 
 pp long_name_steals_a_ton?
