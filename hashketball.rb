@@ -233,6 +233,11 @@ def winning_team
     end  
   end
   
+  if home_points.sum > away_points.sum
+    return 
+  else
+    
+  end
 end
 
 pp winning_team
