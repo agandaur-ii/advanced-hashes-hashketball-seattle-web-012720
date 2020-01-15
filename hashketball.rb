@@ -235,5 +235,4 @@ def winning_team
   
 end
 
-array = [1, 2, 3]
-puts array.sum
+pp winning_team
