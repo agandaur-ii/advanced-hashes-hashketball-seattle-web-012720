@@ -235,4 +235,5 @@ def winning_team
   
 end
 
-pp winning_team
+array = [1, 2, 3]
+puts array.sum
