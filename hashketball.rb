@@ -241,5 +241,9 @@ def winning_team
 end
 
 def player_with_longest_name
-  
+  list_of_names = []
+  array_of_all_players.each do |index| 
+    list_of_names << index[:player_name]
+  end
+  puts "Not found"
 end 
