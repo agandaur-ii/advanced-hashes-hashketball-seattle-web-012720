@@ -245,5 +245,5 @@ def player_with_longest_name
   array_of_all_players.each do |index| 
     list_of_names << index[:player_name]
   end
-  puts "Not found"
+  list_of_names
 end 
