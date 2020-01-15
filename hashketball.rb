@@ -256,11 +256,11 @@ def long_name_steals_a_ton?
   end
   most_steals = list_of_steals.sort.last
   
-  long_name_steals = []
+  long_name_steals = [0
   array_of_all_players.each do |index| 
     index.each do |key|
       if key.include?(player_with_longest_name)
-        long_name_steals << index[:steals]
+        long_name_steals = index[:steals]
       end
     end    
   end
